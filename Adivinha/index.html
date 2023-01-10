@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="intro">
+            <div class="title">
+                <h2>Adivinha Palavras</h2>
+                <div class="input">
+                    <img id="img" src="./imagem/coracaoMetad.png" alt="" width="30px">
+                    <input id="inputVida" type="text">
+                </div>
+            </div>
+            <p>
+                Clique no Button "Gerar Palavra", para gerar uma palavra aleatória. Para ganhar basta conseguir chegar a 6 vidas; caso zere suas vidas o jogo será encerrado.
+            </p>
+        </div>
+        <div class="container">
+            <input type="text" id="text" placeholder="Clique no Button para gerar uma dica...">
+            <input type="text" id="palavra" placeholder="Informe a palavra...">
+            <button id="confirm">Gerar palavra</button>
+        </div>
+        <div class="resposta">
+
+        </div>
+    </main>
+    <script src="cafeina.js"></script>
+</body>
+</html>
